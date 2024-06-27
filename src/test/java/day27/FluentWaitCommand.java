@@ -18,6 +18,7 @@ public class FluentWaitCommand {
     public static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5)); //Page load time
 
         //Decalration
         Wait<WebDriver> mywait = new FluentWait<WebDriver>(driver)
