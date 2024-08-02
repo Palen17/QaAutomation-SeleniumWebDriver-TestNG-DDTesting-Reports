@@ -11,7 +11,7 @@ public class BlockingADs {
     public static void main(String[] args) {
         ChromeOptions options = new ChromeOptions();
 
-        File file = new File("E:\\Curso-QA-Automation\\seleniumwebdriver\\uBlock-Origin-Chrome-Web-Store.crx");
+        File file = new File("E:\\Curso-QA-Automation\\seleniumwebdriver\\ChromeExtensions\\uBlock-Origin-Chrome-Web-Store.crx");
 
         options.addExtensions(file);
 
